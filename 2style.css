@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0;
+}
+
+nav {
+    background-color: navy;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid navy;
+}
+.container {
+    width: 70%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+.mainclass{
+    background-color: rgb(75, 185, 202);
+    color:black;
+    padding:20px;
+    border-bottom:5px solid #61da9c;
+    text-align:center;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+h2 {
+    color: darkblue;
+}
+
+h3 {
+    color: blue;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+hr{
+    border: 1px solid rgb(7, 9, 8);
+}
